@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/index.css" />
+    <title>Microsoft</title>
+  </head>
+  <body class="bg-linear-to-r from-slate-100 via-blue-50 to-blue-200">
+    <div class="navbar relative flex justify-between items-center p-2 mx-4 my-0">
+      <div
+        class="flex justify-center items-center text-center min-[860px]:order-4"
+      >
+        <input
+          type="checkbox"
+          id="hamburger-toggle"
+          class="hidden peer"
+          placeholder="$"
+        />
+        <label
+          for="hamburger-toggle"
+          class="hamburger inline-block p-4 cursor-pointer min-[860px]:hidden"
+        >
+          <div class="line h-0.5 w-6 my-1 bg-black transition-all"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black transition-all"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black transition-all"></div>
+        </label>
+
+        <div
+          class="absolute top-full left-0 mt-0 bg-gray-100 shadow-lg rounded-md opacity-0 invisible peer-checked:opacity-100 peer-checked:visible transition-all duration-200 w-full min-[860px]:hidden z-50"
+        >
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-200 transition-colors"
+            >Microsoft 365</a
+          >
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-200 transition-colors"
+            >Azure</a
+          >
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-200 transition-colors"
+            >Windows</a
+          >
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-200 transition-colors"
+            >Surface</a
+          >
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-200 transition-colors"
+            >Xbox</a
+          >
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-200 transition-colors"
+            >Support</a
+          >
+        </div>
+
+        <div
+          class="search flex items-center justify-center p-2 min-[860px]:order-2 mb-0 mt-3"
+        >
+          <img
+            src="./assets/search-interface-symbol.png"
+            alt="Failed to load"
+            class="w-6 h-auto"
+          />
+        </div>
+      </div>
+
+      <div
+        class="logo flex justify-center text-center min-[860px]:order-1 mt-2"
+      >
+        <img src="./microsoft.png" alt="Failed to load" class="w-8.75 h-auto" />
+        <span class="text-2xl"> Microsoft</span>
+      </div>
+
+      <div class="cart min-[860px]:order-3 mt-2">
+        <img
+          src="./assets/shopping-cart.png"
+          alt="Failed to load"
+          class="w-6 h-auto"
+        />
+      </div>
+      <div class="Account min-[860px]:order-4 mt-2">
+        <img src="./assets/user.png" alt="Failed to load" class="w-6 h-auto" />
+      </div>
+
+      <div class="min-[860px]:order-2">
+        <ul
+          class="hidden min-[860px]:flex justify-center text-center space-x-4 mt-2"
+        >
+          <li><a href="#">Microsoft 365</a></li>
+          <li><a href="#">Azure</a></li>
+          <li><a href="#">Copilot</a></li>
+          <li><a href="#">Windows</a></li>
+
+          <li class="relative group min-[940px]:hidden">
+            <button
+              type="button"
+              class="inline-flex items-start text-gray-800 hover:bg-gray-100 focus:outline-dashed focus:outline-1 focus:outline-black"
+            >
+              <span>More</span>
+            </button>
+            <div
+              class="absolute left-0 z-10 hidden group-hover:block w-32 origin-top-left bg-[#f2f2f2] text-black shadow-md"
+            >
+              <div>
+                <a href="#" class="block px-4 py-2">Xbox</a>
+                <a href="#" class="block px-4 py-2">Surface</a>
+                <a href="#" class="block px-4 py-2">Support</a>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="#" class="hidden min-[940px]:block">Xbox</a></li>
+          <li><a href="#" class="hidden min-[940px]:block">Surface</a></li>
+          <li><a href="#" class="hidden min-[940px]:block">Support</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="slider flex flex-col-reverse lg:flex-row lg:items-center gap-8 lg:gap-12 py-1 lg:py-2">
+      <div class="left flex-1 space-y-4 ml-3">
+        <h1 class="text-3xl lg:text-4xl font-bold text-gray-900">Meet Surface Laptop</h1>
+        <p class="text-base lg:text-lg text-gray-600 leading-relaxed">Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</p>
+
+        <button type="button" 
+        class="bg-[#0064ac] hover:bg-blue-700 active:bg-blue-800 focus:outline-2 focus:outline-blue-300 text-white px-3 py-1 rounded-md font-semibold transition-colors duration-200 ease-in-out mt-3"
+        aria-label="Learn more about Surface Laptop">
+        Learn More
+        </button>
+      </div>
+
+      <div class="right flex-1 flex justify-center lg:justify-end mt-0">
+        <img src="./assets/image.avif" alt="Surface Laptop - AI-powered device with advanced features"
+        loading="lazy" class="w-full lg:object-contain">
+      </div>
+    </section>
+
+    <div class="promo flex flex-col lg:flex-row justify-center mb-4">
+      <div class="flex items-center m-3 space-x-2 lg:flex-col"><img src="./assets/microsoft.png" alt="" class="w-6 mb-1"><span>Choose your Microsoft 365</span></div>
+      <div class="flex items-center m-3 space-x-2 lg:flex-col"><img src="./assets/xbox-logo.png" alt="" class="w-6 mb-1"><span>Shop Xbox</span></div>
+      
+      <div class="flex items-center m-3 space-x-2 lg:flex-col"><img src="./assets/microsoft.png" alt="" class="w-6 mb-1"><span>GetWindows 11</span></div>
+
+      <div class="flex items-center m-3 space-x-2 lg:flex-col"><img src="./assets/technology.png" alt="" class="w-6 mb-1"><span>Explore Surface devices</span></div>
+    </div>
+  </body>
+</html>
