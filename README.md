@@ -43,7 +43,7 @@ Before you begin, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Grubby11/microsoft-homepage-clone.git
+git clone https://github.com/Astitva1109/microsoft-homepage-clone.git
 cd microsoft-homepage-clone
 ```
 
@@ -240,7 +240,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Astitva Satsangi**
-- GitHub: [@Grubby11](https://github.com/Grubby11)
+- GitHub: [@Astitva1109](https://github.com/Astitva1109)
 
 ---
 
@@ -257,7 +257,7 @@ This project is open source and available under the [MIT License](LICENSE).
 If you encounter any issues:
 
 1. Check the [Troubleshooting](#-troubleshooting) section
-2. Open an [issue on GitHub](https://github.com/Grubby11/microsoft-homepage-clone/issues)
+2. Open an [issue on GitHub](https://github.com/Astitva1109/microsoft-homepage-clone/issues)
 3. Check related documentation links above
 
 ---
@@ -272,5 +272,5 @@ If you encounter any issues:
 | Link | Description |
 |------|-------------|
 | [Live Site](https://microsoftclone-nu.vercel.app/) | View deployed website |
-| [GitHub Repo](https://github.com/Grubby11/microsoft-homepage-clone) | Source code |
-| [Issues](https://github.com/Grubby11/microsoft-homepage-clone/issues) | Report bugs |
+| [GitHub Repo](https://github.com/Astitva1109/microsoft-homepage-clone) | Source code |
+| [Issues](https://github.com/Astitva1109/microsoft-homepage-clone/issues) | Report bugs |
