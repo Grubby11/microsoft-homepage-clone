@@ -110,24 +110,12 @@ microsoft-homepage-clone/
 ├── package.json              # Dependencies & scripts
 ├── package-lock.json         # Locked dependency versions
 ├── vite.config.js            # Vite configuration
-├── tailwind.config.js        # Tailwind CSS config
-├── postcss.config.js         # PostCSS config
 ├── eslint.config.js          # ESLint rules
 ├── vercel.json               # Vercel deployment config
 ├── .gitignore                # Git ignore rules
 ├── README.md                 # This file
 └── microsoft.png             # Root favicon/logo
 ```
-
----
-
-## 🎨 Tailwind CSS Configuration
-
-Tailwind CSS v4.2 is already configured. To customize:
-
-1. Edit `tailwind.config.js` for theme extensions
-2. Edit `src/index.css` for custom styles
-3. Run `npm run build` to generate optimized CSS
 
 ---
 
@@ -167,20 +155,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 })
-```
-
-### `tailwind.config.js`
-```javascript
-export default {
-  content: [
-    './index.html',
-    './src/**/*.{js,jsx,ts,tsx}',
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
 ```
 
 ---
@@ -265,7 +239,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Your Name**
+**Astitva Satsangi**
 - GitHub: [@Grubby11](https://github.com/Grubby11)
 
 ---
