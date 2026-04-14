@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-**[Visit the Live Website](https://YOUR-PROJECT.vercel.app)** ← Replace with your actual Vercel URL
+**[Visit the Live Website](https://microsoftclone-nu.vercel.app/)**
 
 ---
 
@@ -85,21 +85,38 @@ npm run lint
 
 ```
 microsoft-homepage-clone/
-├── public/              # Static assets
-├── src/
-│   ├── components/      # Reusable components
-│   ├── pages/          # Page components
-│   ├── App.jsx         # Main app component
-│   ├── App.css         # App styles
-│   ├── index.css       # Global styles with Tailwind
-│   └── main.jsx        # Entry point
-├── index.html          # HTML template
-├── package.json        # Dependencies and scripts
-├── vite.config.js      # Vite configuration
-├── tailwind.config.js  # Tailwind CSS configuration
-├── postcss.config.js   # PostCSS configuration
-├── vercel.json         # Vercel deployment config
-└── README.md           # This file
+├── assets/                    # Images and SVG assets
+│   ├── image.avif            # Optimized images
+│   ├── microsoft.png          # Microsoft logo
+│   ├── search-interface-svg   # Search icon
+│   ├── shopping-cart.png      # Cart icon
+│   ├── technology.png         # Tech category icon
+│   ├── user.png              # User icon
+│   └── xbox-logo.png         # Xbox brand logo
+│
+├── public/                    # Static files
+│
+├── src/                       # Source code
+│   ├── components/           # React components
+│   ├── App.jsx              # Main app component
+│   ├── App.css              # App-level styles
+│   ├── index.css            # Global styles + Tailwind
+│   └── main.jsx             # React entry point
+│
+├── dist/                      # Build output (generated)
+├── node_modules/             # Dependencies
+│
+├── index.html                # HTML template
+├── package.json              # Dependencies & scripts
+├── package-lock.json         # Locked dependency versions
+├── vite.config.js            # Vite configuration
+├── tailwind.config.js        # Tailwind CSS config
+├── postcss.config.js         # PostCSS config
+├── eslint.config.js          # ESLint rules
+├── vercel.json               # Vercel deployment config
+├── .gitignore                # Git ignore rules
+├── README.md                 # This file
+└── microsoft.png             # Root favicon/logo
 ```
 
 ---
@@ -249,8 +266,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- Portfolio: [Your Portfolio](https://yourportfolio.com)
+- GitHub: [@Grubby11](https://github.com/Grubby11)
 
 ---
 
@@ -267,7 +283,7 @@ This project is open source and available under the [MIT License](LICENSE).
 If you encounter any issues:
 
 1. Check the [Troubleshooting](#-troubleshooting) section
-2. Open an [issue on GitHub](https://github.com/YOUR_USERNAME/microsoft-homepage-clone/issues)
+2. Open an [issue on GitHub](https://github.com/Grubby11/microsoft-homepage-clone/issues)
 3. Check related documentation links above
 
 ---
@@ -281,7 +297,6 @@ If you encounter any issues:
 
 | Link | Description |
 |------|-------------|
-| [Live Site](https://YOUR-PROJECT.vercel.app) | View deployed website |
-| [GitHub Repo](https://github.com/YOUR_USERNAME/microsoft-homepage-clone) | Source code |
-| [Issues](https://github.com/YOUR_USERNAME/microsoft-homepage-clone/issues) | Report bugs |
-| [Discussions](https://github.com/YOUR_USERNAME/microsoft-homepage-clone/discussions) | Ask questions |
+| [Live Site](https://microsoftclone-nu.vercel.app/) | View deployed website |
+| [GitHub Repo](https://github.com/Grubby11/microsoft-homepage-clone) | Source code |
+| [Issues](https://github.com/Grubby11/microsoft-homepage-clone/issues) | Report bugs |
