@@ -43,7 +43,7 @@ Before you begin, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/microsoft-homepage-clone.git
+git clone https://github.com/Grubby11/microsoft-homepage-clone.git
 cd microsoft-homepage-clone
 ```
 
